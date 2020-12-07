@@ -1,5 +1,181 @@
-
-#hide {
-  display: none;
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nerko One', cursive;
 }
 
+.container-fluid {
+    width: 100%;
+}
+
+.principal {
+    background-image: url('https://images.pexels.com/photos/2102415/pexels-photo-2102415.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 88vh;
+}
+
+.display-type {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    padding: 1rem;
+    height: 40vh;
+}
+
+span {
+    color: rgb(10, 10, 10);
+    font-size: 1.60rem;
+}
+
+.fa-bars {
+    color: rgb(22, 21, 21);
+    font-size: 19px;
+}
+
+div div a {
+    position: relative;
+    text-decoration: none;
+    color: rgb(2, 2, 2);
+}
+
+.show {
+    right: -95px;
+    transition: 2s;
+}
+
+div div ul {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    list-style: none;
+    transition: 2s;
+    padding: 5px;
+    font-size: 1.60rem;
+}
+
+.text {
+    text-align: center;
+    border: solid rgba(255, 254, 254, 0.219);
+    margin: 20px;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: #1f1e1d4a;
+    font-size: 1.60rem;
+}
+
+
+/* ABOUT */
+
+.about {
+    height: 70vh;
+    width: 100vw;
+    color: white;
+    background-color: black;
+    padding: 10vh 10vw;
+    text-align: center;
+    padding-top: 1rem;
+    border-bottom: 1px solid white;
+}
+
+.profile-photo {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIKtcmiE6uv7cN4_6hgmDP0Zb2l4B7uzU6Uw&usqp=CAU');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    border: dashed 2px white;
+    margin: auto;
+}
+
+
+/* Helpers */
+
+.margin-top {
+    margin-top: 15px;
+}
+
+
+/* CARD SECTION */
+
+.services {
+    background-color: rgba(221, 207, 207, 0.589);
+    width: 100vw;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.card-text-align-margin {
+    text-align: center;
+    margin-top: 20px;
+    line-height: 1.80rem;
+}
+
+.card-style {
+    box-shadow: 0 .5rem 1rem rgba(175, 184, 207, 0.493);
+    border-radius: 5px;
+    background-color: #fbfaf8;
+    color: black;
+}
+
+
+/* FORM ACTION COMPONENTS */
+
+.contact li {
+    list-style: none;
+    margin: 20px;
+}
+
+.contact ul {
+    position: absolute;
+    left: 15px;
+}
+
+.contact {
+    height: 70vh;
+    border-bottom: 3px solid black;
+    position: relative;
+}
+
+
+/* FOOTER SECTION */
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 2rem;
+}
+
+.icon-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer h3 {
+    color: white;
+    font-size: 2rem;
+}
+
+.icon-container div {
+    border-radius: 50%;
+    border: solid white 1px;
+    height: 50px;
+    width: 50px;
+    padding: 8px;
+    text-align: center;
+    color: white;
+}
+
+.fab {
+    font-size: 2rem;
+}

@@ -1,27 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Doc</title>
     <link rel="stylesheet" href="./css/page-styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://kit.fontawesome.com/623ecca328.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/grid.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <script src="./java.js"></script>
-
 </head>
+
 <body>
-    
-        <button>Click me and i will go away</button>
-        <ul>
-            <li>bghgjhgg</li>
-            <li>ffhgfh</li>
-            <li></li>
-        </ul>
-   
-
-
-      
+    <div class="container-fluid">
+        <!-- MENU-NAV -->
+        <div class="principal">
+            <div class="menu display-type">
+                <span>Quality guaranteed</span>
+                <a class="dissapear" onclick="showMenu()" href="#"><i class="fas fa-bars">
+                </i></a>
+                <ul id="display" class="show">
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Quote</a></li>
+            </div>
+            <div class="text">
+                <h1>I am a coder</h1>
+                <p>I do understand the value of an exceptional creation</p>
+            </div>
+        </div>
+        <!-- ABOUT -->
+        <div class="display-type">
+            <div>
+                <div class="about">
+                    <h2>About me</h2>
+                    <div class="profile-photo margin-top"></div>
+                    <p class="margin-top">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, officiis. Perspiciatis, temporibus, voluptatem ad itaque eum perferendis nihil molestias, tempora tenetur velit voluptatum accusantium! Suscipit, facilis? Provident voluptates
+                        voluptate amet.</p>
+                </div>
+            </div>
+        </div>
+        <!-- SERVICES CARDS -->
+        <div class="services">
+            <div class="card-text-align-margin">
+                <h2>Services</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-3 card-text-align-margin card-style">
+                    <i class="fas fa-book"></i>
+                    <h4>Title</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus sint, in qui quo earum hic quas ipsa totam non adipisci dignissimos harum eos numquam? Atque similique voluptate quisquam optio animi.</p>
+                </div>
+                <div class="col-md-3 card-text-align-margin card-style">
+                    <i class="fas fa-glasses"></i>
+                    <h4>Title</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus sint, in qui quo earum hic quas ipsa totam non adipisci dignissimos harum eos numquam? Atque similique voluptate quisquam optio animi.</p>
+                </div>
+                <div class="col-md-3 card-text-align-margin card-style">
+                    <i class="fas fa-warehouse"></i>
+                    <h4>Title</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae adipisci placeat illum! Nemo non ad repudiandae impedit iusto rerum nam consequatur beatae minima ea ipsa eius itaque perfere?</p>
+                </div>
+            </div>
+        </div>
+        <!-- FORM FILL OUT -->
+        <div class="contact">
+            <form action="">
+                <ul>
+                    <li>
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="user_name">
+                    </li>
+                    <li>
+                        <label for="mail">E-mail</label>
+                        <input type="email" id="mail" name="user_name">
+                    </li>
+                    <li>
+                        <label for="msg">Leave a message</label>
+                        <textarea name="user_message" id="msg" cols="30" rows="10"></textarea>
+                    </li>
+                </ul>
+            </form>
+        </div>
+        <footer>
+            <h3>Social</h3>
+            <div class="icon-container">
+                <div><i class="fab fa-twitter"></i></div>
+                <div><i class="fab fa-facebook-f"></i></div>
+                <div><i class="fab fa-instagram"></i></div>
+            </div>
+        </footer>
+    </div>
 </body>
+
 </html>

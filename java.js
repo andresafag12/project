@@ -1,4 +1,3 @@
-function showmenu () {
-    document.getElementById("hide").classList.toggle;
+function showMenu() {
+    document.getElementById('display').classList.toggle('show')
 }
-document.getElementById('menu').classList.toggle('hide')
